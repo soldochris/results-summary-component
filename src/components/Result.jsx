@@ -3,7 +3,7 @@ function Result(){
     <section>
       <h2>Your Result</h2>
       <div>
-        <span>76</span>
+        <span>76 </span>
         <span>of 100</span>
       </div>
       <span>Great</span>
