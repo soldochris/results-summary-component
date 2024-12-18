@@ -8,9 +8,11 @@ function App() {
 
   return (
     <>
-      <Result/>
-      <Summary/>
-      <Attribution/>
+      <main>
+        <Result/>
+        <Summary/>
+        <Attribution/>
+      </main>
     </>
   )
 }
