@@ -1,11 +1,16 @@
 import './Result.css'
 
-function Result(){
+function Result({data}){
+
+  const totalScore = data.reduce((sum, item) => sum + item.score, 0);
+  const averageScore = Math.round(totalScore / data.length);
+
+  console.log(data)
   return (
     <section className='result'>
       <h2>Your Result</h2>
       <div>
-        <span>76 </span>
+        <span>{averageScore}</span>
         <span>of 100</span>
       </div>
       <span>Great</span>

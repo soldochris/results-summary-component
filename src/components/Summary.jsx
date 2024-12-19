@@ -1,44 +1,45 @@
 import './summary.css'
 
-function Summary(){
+function Summary({data}){
+
   return(
     <section className="summary">
         <h2>Summary</h2>
         <ul>
           <li>
             <span className='category'> 
-              <img src="./assets/images/icon-reaction.svg" alt="icon" /> 
-              Reaction
+              <img src={data[0].icon} alt="icon" /> 
+              {data[0].category}
             </span>
             <div>
-              80 <span>/ 100</span>
+              {data[0].score} <span>/ 100</span>
             </div>
           </li>
           <li>
             <span className='category'>
-              <img src="./assets/images/icon-memory.svg" alt="icon" /> 
-              Memory
+              <img src={data[1].icon} alt="icon" /> 
+              {data[1].category}
             </span>
             <div>
-              92 <span>/ 100</span>
+            {data[1].score} <span>/ 100</span>
             </div>
           </li>
           <li>
             <span className='category'>
-              <img src="./assets/images/icon-verbal.svg" alt="icon" /> 
-              Verbal
+              <img src={data[2].icon} alt="icon" /> 
+              {data[2].category}
             </span> 
             <div>
-              61 <span>/ 100</span>
+            {data[2].score} <span>/ 100</span>
             </div>
           </li>
           <li>
             <span className='category'>
-              <img src="./assets/images/icon-visual.svg" alt="icon" /> 
-              Visual
+              <img src={data[3].icon} alt="icon" /> 
+              {data[3].category}
             </span> 
             <div>
-              72 <span> / 100</span>
+            {data[3].score} <span> / 100</span>
             </div>
           </li>
         </ul>
