@@ -11,9 +11,10 @@
   padding: 16px 0;
 
   & h2{
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     color: var(--Light-lavender);
+    font-weight: 700;
   }
 
   & div{
@@ -29,7 +30,7 @@
     & span{
       color: var(--Light-lavender);
       font-size: 14px;
-      font-weight: bold;
+      font-weight: 700;
     }
     & span:first-child{
       color: var(--White);
@@ -39,7 +40,7 @@
 
   & span{
     font-size: 20px;
-    font-weight:800;
+    font-weight:500;
   }
 
   & p{
