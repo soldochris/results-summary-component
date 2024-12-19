@@ -9,7 +9,7 @@ function App() {
   const [info, setInfo] = useState([]);
 
   useEffect(() =>{
-    fetch('./data.json')
+    fetch('/data.json')
       .then(response => response.json())
       .then(data => setInfo(data))
   },[]);
