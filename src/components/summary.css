@@ -70,3 +70,26 @@
     background: linear-gradient( var(--Light-slate-blue), var(--Light-royal-blue));
   }
 }
+
+@media screen and (width > 375px){
+  .summary{
+    height: 100%;
+    margin: 0;
+    padding: 0px 32px;
+    justify-content: space-around;
+
+    & h2{
+      font-size: 24px;
+    }
+
+    & ul{
+      row-gap: 16px;
+      margin: 0;
+    }
+
+    & button{
+      font-size: 20px;
+      font-weight:500;
+    }
+  }
+}

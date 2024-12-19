@@ -11,8 +11,8 @@ function App() {
       <main>
         <Result/>
         <Summary/>
-        <Attribution/>
       </main>
+      <Attribution/>
     </>
   )
 }

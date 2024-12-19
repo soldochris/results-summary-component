@@ -1,4 +1,6 @@
 .attribution{
+  margin: 0 auto;
+  text-align: center;
   font-size: 12px;
   color: var(--Dark-gray-blue);
   & a{
@@ -9,5 +11,11 @@
   & a:hover{
     color: var(--Light-royal-blue);
     text-decoration: underline;
+  }
+}
+
+@media screen and (width > 375px){
+  .attribution{
+    font-size: 16px;
   }
 }

@@ -51,3 +51,41 @@
     font-weight: 700;
   }
 }
+
+@media screen and (width > 375px){
+  .result{
+    margin: 0;
+    height: 100%;
+    border-radius: 24px;
+    padding: 0;
+    row-gap: 0;
+    gap:0;
+    justify-content: space-evenly;
+
+    & h2{
+      font-size: 24px;
+    }
+
+    & div {
+      width: 200px;
+      height: 200px;
+
+      & span{
+        font-size: 18px;
+      }
+      & span:first-child{
+        font-size: 54px;
+      }
+    }
+
+    & span{
+      font-size: 24px;
+    }
+
+    & p{
+      font-size: 18px;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+}
