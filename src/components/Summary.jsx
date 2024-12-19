@@ -7,7 +7,7 @@ function Summary(){
         <ul>
           <li>
             <span className='category'> 
-              <img src="/assets/images/icon-reaction.svg" alt="icon" /> 
+              <img src="./assets/images/icon-reaction.svg" alt="icon" /> 
               Reaction
             </span>
             <div>
@@ -16,7 +16,7 @@ function Summary(){
           </li>
           <li>
             <span className='category'>
-              <img src="/assets/images/icon-memory.svg" alt="icon" /> 
+              <img src="./assets/images/icon-memory.svg" alt="icon" /> 
               Memory
             </span>
             <div>
@@ -25,7 +25,7 @@ function Summary(){
           </li>
           <li>
             <span className='category'>
-              <img src="/assets/images/icon-verbal.svg" alt="icon" /> 
+              <img src="./assets/images/icon-verbal.svg" alt="icon" /> 
               Verbal
             </span> 
             <div>
@@ -34,7 +34,7 @@ function Summary(){
           </li>
           <li>
             <span className='category'>
-              <img src="/assets/images/icon-visual.svg" alt="icon" /> 
+              <img src="./assets/images/icon-visual.svg" alt="icon" /> 
               Visual
             </span> 
             <div>

@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (width > 375px){
+@media screen and (width > 430px){
   .result{
     margin: 0;
     height: 100%;
