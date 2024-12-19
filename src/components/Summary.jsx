@@ -8,7 +8,7 @@ function Summary({data}){
         <ul>
           <li>
             <span className='category'> 
-              <img src={data[0].icon} alt="icon" /> 
+              <img src={data[0]?.icon} alt="icon" /> 
               {data[0].category}
             </span>
             <div>
@@ -17,7 +17,7 @@ function Summary({data}){
           </li>
           <li>
             <span className='category'>
-              <img src={data[1].icon} alt="icon" /> 
+              <img src={data[1]?.icon} alt="icon" /> 
               {data[1].category}
             </span>
             <div>
@@ -26,7 +26,7 @@ function Summary({data}){
           </li>
           <li>
             <span className='category'>
-              <img src={data[2].icon} alt="icon" /> 
+              <img src={data[2]?.icon} alt="icon" /> 
               {data[2].category}
             </span> 
             <div>
@@ -35,7 +35,7 @@ function Summary({data}){
           </li>
           <li>
             <span className='category'>
-              <img src={data[3].icon} alt="icon" /> 
+              <img src={data[3]?.icon} alt="icon" /> 
               {data[3].category}
             </span> 
             <div>
